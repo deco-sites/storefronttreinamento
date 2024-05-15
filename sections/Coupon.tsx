@@ -11,9 +11,9 @@ interface Props {
 
 export default function Section({ code, description }: Props) {
   return (
-    <div>
-      <p>Código do cupom: {code}</p>
-      <p>benefícios do Cupom: {description}</p>
+    <div class="flex justify-center flex-col items-center p-[25px] bg-[#f5f5f5]">
+      <p>Código do cupom: <b>{code}</b> </p>
+      <p>benefícios do Cupom: <b>{description}</b></p>     
     </div>
   )
 }
