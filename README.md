@@ -6,7 +6,7 @@ in minutes.
 <div style="display: flex; justify-content: center; width: 100%">
 <img width="600px" height="147px"
     src="https://cdn.discordapp.com/attachments/1043241080679841793/1083140431556116553/image.png" />
-</div>
+</div> 
 
 ## Features
 This starter brings:
