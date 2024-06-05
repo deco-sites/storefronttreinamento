@@ -69,16 +69,14 @@ function Navbar(
   return (
     <div class="hidden sm:grid sm:grid-cols-3 items-center border-b border-base-200 w-full px-6">
       <ul
-        class={`flex gap-6 col-span-1 ${
-          logoPosition === "left" ? "justify-center" : "justify-start"
-        }`}
+        class={`flex gap-6 col-span-1 ${logoPosition === "left" ? "justify-center" : "justify-start"
+          }`}
       >
         {items.map((item) => <NavItem item={item} />)}
       </ul>
       <div
-        class={`flex ${
-          logoPosition === "left" ? "justify-start -order-1" : "justify-center"
-        }`}
+        class={`flex ${logoPosition === "left" ? "justify-start -order-1" : "justify-center"
+          }`}
       >
         {logo && (
           <a
@@ -130,6 +128,16 @@ function Navbar(
             WISHLIST
           </a>
         )}
+        <a
+          class="flex items-center text-xs font-thin"
+          href="/stats"
+          aria-label="Account"
+        >
+          <div class="flex btn btn-circle btn-sm btn-ghost gap-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-friends"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M7 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M5 22v-5l-1 -1v-4a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4l-1 1v5" /><path d="M17 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M15 22v-4h-2l2 -6a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1l2 6h-2v4" /></svg>
+          </div>
+          STATS
+        </a>
         {!buttons?.hideCartButton && (
           <div class="flex items-center text-xs font-thin">
             {platform === "vtex" && <CartButtonVTEX />}

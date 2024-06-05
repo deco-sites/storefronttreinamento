@@ -3,6 +3,7 @@
 // This file is automatically updated during development when running `dev.ts`.
 
 import * as $_app from "./routes/_app.tsx";
+import * as $AddComments from "./islands/AddComments.tsx";
 import * as $AddToCartButton_linx from "./islands/AddToCartButton/linx.tsx";
 import * as $AddToCartButton_nuvemshop from "./islands/AddToCartButton/nuvemshop.tsx";
 import * as $AddToCartButton_shopify from "./islands/AddToCartButton/shopify.tsx";
@@ -33,6 +34,7 @@ const manifest = {
     "./routes/_app.tsx": $_app,
   },
   islands: {
+    "./islands/AddComments.tsx": $AddComments,
     "./islands/AddToCartButton/linx.tsx": $AddToCartButton_linx,
     "./islands/AddToCartButton/nuvemshop.tsx": $AddToCartButton_nuvemshop,
     "./islands/AddToCartButton/shopify.tsx": $AddToCartButton_shopify,
