@@ -1,1 +1,133 @@
-{"name":"Home","sections":[{"__resolveType":"Header - 01"},{"__resolveType":"website/flags/multivariate/section.ts","variants":[{"value":{"__resolveType":"site/sections/Images/Carousel.tsx","dots":false,"arrows":true,"images":[{"alt":"Feminino","action":{"href":"/feminino","label":"Explore collection","title":"VTEX Store","subTitle":"Visit our site and start building now:"},"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"},{"alt":"Masculino","action":{"href":"/masculino","label":"Explore collection","title":"VTEX Store","subTitle":"Visit our site and start building now:"},"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"},{"alt":"Vestidos","action":{"href":"/feminino/roupas/vestidos","label":"Explore collection","title":"VTEX Store","subTitle":"Visit our site and start building now:"},"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"}],"preload":true},"rule":{"__resolveType":"Teste AB"}},{"value":{"__resolveType":"site/sections/Images/Carousel.tsx","dots":false,"arrows":true,"images":[{"alt":"Feminino","action":{"href":"/feminino","label":"Explore collection","title":"VTEX Store","subTitle":"Visit our site and start building now:"},"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"},{"alt":"Masculino","action":{"href":"/masculino","label":"Explore collection","title":"VTEX Store","subTitle":"Visit our site and start building now:"},"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"},{"alt":"Vestidos","action":{"href":"/feminino/roupas/vestidos","label":"Explore collection","title":"VTEX Store","subTitle":"Visit our site and start building now:"},"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"}],"preload":true},"rule":{"__resolveType":"website/matchers/always.ts"}}]},{"__resolveType":"site/sections/Miscellaneous/Slide.tsx","content":[{"label":"HOT SALE","repeat":30}]},{"__resolveType":"site/sections/Miscellaneous/CampaignTimer.tsx","link":{"href":"https://github.com/deco-cx","text":"Visit our GitHub"},"text":"<p>Design, develop and deliver complete experiences</p>","labels":{"days":"days","hours":"hours","expired":" Expired!","minutes":"minutes","seconds":"seconds"},"layout":{"textPosition":"After counter"},"expiresAt":"2024-03-15T17:23:00.000Z"},{"__resolveType":"site/sections/Miscellaneous/Slide.tsx","content":[{"label":"HOT SALE","repeat":15}]},{"__resolveType":"site/sections/Product/ProductShelf.tsx","layout":{"showArrows":true},"products":{"props":{"sort":"price:desc","count":6,"collection":"139"},"crossSelling":"similars","__resolveType":"vtex/loaders/intelligentSearch/productList.ts"},"cardLayout":{"layout":{"hide":{"allPrices":false,"favoriteIcon":true,"installments":false,"productDescription":true},"basics":{"oldPriceSize":"Normal","contentAlignment":"Left"},"onMouseOver":{"card":"None","image":"Change image","showCta":true,"showCardShadow":false,"showSkuSelector":false,"showFavoriteIcon":false},"elementsPositions":{"skuSelector":"Bottom","favoriteIcon":"Top right"}},"__resolveType":"site/loaders/Layouts/ProductCard.tsx"}},{"__resolveType":"Shoppable Banner - 01"},{"__resolveType":"site/sections/Category/CategoryGrid.tsx","list":[{"href":"/","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/01c01ba9-ac16-4371-82ca-b93d17545f9c","label":"Your Collection","buttonText":"Explore collection"},{"href":"/","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/9b80d57d-64b0-4eef-a3cd-fa8daafaae9c","label":"Your Collection","buttonText":"Explore collection"},{"href":"/","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/ed4c0eb3-96ab-484f-b293-e91d196a5063","label":"Your Collection","buttonText":"Explore collection"},{"href":"/","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/b9882ff7-3dbc-43e4-9813-5cec23c012cd","label":"Your Collection","buttonText":"Explore collection"}],"header":{"title":"Explore Our Categories"},"layout":{"categoryCard":{"textPosition":"bottom","textAlignment":"left"}}},{"__resolveType":"site/sections/Product/ShelfWithImage.tsx","image":{"alt":"Collection Image","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/165c770b-cbbc-48c0-81ad-c732d527c77c","href":"/feminino"},"section":{"title":"Summer Vibes","layout":{"showArrows":true,"headerfontSize":"Normal","headerAlignment":"center","numberOfSliders":{"mobile":1,"desktop":1}},"products":{"props":{"sort":"price:desc","count":3,"query":"camisa"},"__resolveType":"vtex/loaders/intelligentSearch/productList.ts"},"cardLayout":{"layout":{"hide":{"allPrices":false,"favoriteIcon":true,"installments":true,"productDescription":true},"basics":{"oldPriceSize":"Normal","contentAlignment":"Left"},"onMouseOver":{"card":"None","image":"Change image","showCta":true,"showCardShadow":false,"showSkuSelector":true,"showFavoriteIcon":false},"elementsPositions":{"skuSelector":"Bottom","favoriteIcon":"Top right"}},"__resolveType":"site/loaders/Layouts/ProductCard.tsx"},"__resolveType":"site/sections/Product/ProductShelf.tsx"}},{"__resolveType":"site/sections/Product/ProductShelfTabbed.tsx","tabs":[{"title":"Woman","products":{"props":{"sort":"price:desc","count":8,"query":"vestido"},"__resolveType":"vtex/loaders/intelligentSearch/productList.ts"}},{"title":"Man","products":{"props":{"sort":"price:desc","count":8,"collection":"140"},"__resolveType":"vtex/loaders/intelligentSearch/productList.ts"}}],"title":"Best Sellers","layout":{"headerfontSize":"Large","headerAlignment":"center"},"cardLayout":{"__resolveType":"Product Card Layout - 01"}},{"title":"Blogposts","__resolveType":"site/sections/Content/BlogPosts.tsx","posts":[{"alt":"Item of the Summer","date":"January 15, 2024","href":"/","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/7e80b083-d1ff-480d-b3a3-b744b69402b1","label":"Item of the Summer","author":"deco.cx","description":"Lorem ipsum dolor sit amet consectetur. Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "},{"alt":"Item of the Summer","date":"January 15, 2024","href":"/","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/a3f329d8-795c-4c3b-8049-ede939d599ef","label":"Item of the Summer","author":"deco.cx","description":"Lorem ipsum dolor sit amet consectetur. Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "},{"alt":"Item of the Summer","date":"January 15, 2024","href":"/","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/7e80b083-d1ff-480d-b3a3-b744b69402b1","label":"Item of the Summer","author":"deco.cx","description":"Lorem ipsum dolor sit amet consectetur.  Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "}]},{"__resolveType":"Footer - 04"}],"__resolveType":"website/pages/Page.tsx","path":"/"}
+{
+  "name": "Home",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Conexões Culturais",
+      "description": "experiências inspiradas em diferentes culturas ao redor do Brasil.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/39f59bcb-f20c-4f99-9459-15cb0f7369f7",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/4b7d9357-07a4-4bca-b4d7-968f6081b124",
+      "type": "website"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/PartialProductAd .tsx",
+      "buttonTitle": "Ver proximo",
+      "message": "Amei",
+      "productAds": [
+        {
+          "product": {
+            "description": "4 - doce de leite mineiro 300g",
+            "title": "produto 2",
+            "productID": "2",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/e4aeba9a-0a7b-451e-adf2-0ed9d6f83240",
+            "price": "25.00"
+          },
+          "adDescription": "Bacana demais",
+          "animateImage": true
+        },
+        {
+          "product": {
+            "description": "2 - doce de leite mineiro 300g",
+            "title": "produto 3",
+            "productID": "3",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/d7a9259e-d46a-416e-abe9-2e883695d11e",
+            "price": "23.00"
+          },
+          "adDescription": "Bacana demais",
+          "animateImage": false
+        }
+      ],
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/54b20e09-8fcf-407f-80dd-0478fc0d0a12"
+    },
+    {
+      "__resolveType": "site/sections/Images/BannerGrid.tsx",
+      "title": "Cultura de Minas Gerais",
+      "itemsPerLine": {
+        "mobile": 1,
+        "desktop": 2
+      },
+      "borderRadius": {
+        "mobile": "full",
+        "desktop": "md"
+      },
+      "banners": [
+        {
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/abd1d393-c397-4df4-91b8-fa949e303d12",
+          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/533c098e-6042-4e32-ad84-d4c06fa298a7",
+          "alt": "minas",
+          "href": "#"
+        },
+        {
+          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/1f5315ef-dfaf-484a-bf2b-8ada4ae81cd1",
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/effee2c6-9201-4e2c-a58d-2669c1875aa8",
+          "alt": "comida",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "title": "Novidades",
+      "description": "Chocolate mineiro",
+      "products": {
+        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "props": {
+          "term": "cho",
+          "sort": "OrderByReleaseDateDESC",
+          "count": 6
+        }
+      },
+      "layout": {
+        "showArrows": true,
+        "numberOfSliders": {
+          "desktop": 4,
+          "mobile": 2
+        }
+      }
+    },
+    {
+      "__resolveType": "site/sections/ProductAd.tsx",
+      "product": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/4d15b876-1c5a-48ae-90e9-feab3fec6ddc",
+        "title": "produto 1",
+        "description": "doce de leite mineiro 300g",
+        "price": "9.99",
+        "productID": "1"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "title": "Os mais vendidos",
+      "description": "Doces tradicionais",
+      "products": {
+        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "props": {
+          "term": "mel",
+          "sort": "OrderByTopSaleDESC",
+          "count": 6
+        }
+      },
+      "layout": {
+        "showArrows": true
+      }
+    },
+    {
+      "__resolveType": "site/sections/ProductAd.tsx",
+      "product": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/4d15b876-1c5a-48ae-90e9-feab3fec6ddc",
+        "title": "produto 1",
+        "description": "doce de leite mineiro 300g",
+        "price": "9.99",
+        "productID": "1"
+      }
+    },
+    {
+      "__resolveType": "Footer - 04"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "path": "/"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Culturas",
+  "path": "/culturas",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Culturas | Conexões Culturais",
+      "description": "As melhores e diferentes culturas  do Brasil.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/7d83f7b1-418c-40a8-ac0e-cc6574d18ee0",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/ff1ac198-91ea-40b3-8da2-5865084eaaf8",
+      "type": "website"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Images/BannerGrid.tsx",
+      "itemsPerLine": {
+        "mobile": 1,
+        "desktop": 2
+      },
+      "title": "Nossas Culturas",
+      "borderRadius": {
+        "mobile": "none",
+        "desktop": "none"
+      },
+      "banners": [
+        {
+          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/746c720a-5ec2-46b9-9a4c-6074d1cbc805",
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/ffc5e0f9-56e7-4a49-af1b-598762c3d6e5",
+          "alt": "queijo",
+          "href": "/queijos"
+        },
+        {
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/39468b43-c8e4-4ed9-bffe-d3fc542bd2a6",
+          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/adf70346-913f-4b51-a4df-61487b4b0244",
+          "alt": "pao de queijo",
+          "href": "/pao-de-queijo"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Lugar.tsx",
+      "text": "Minas Gerais, um grande estado continental no sudeste do Brasil, é conhecido por cidades da era colonial que remetem à corrida do ouro no país no século 18. Entre elas estão São João del Rei, Tiradentes e Ouro Preto, a antiga capital, todas com ruas de paralelepípedo, mansões ornamentadas e igrejas barrocas decoradas pelo escultor Aleijadinho.O famoso trem a vapor Maria Fumaça liga Tiradentes a São João del Rei.",
+      "temperature": {
+        "__resolveType": "weather/loaders/temperature.ts",
+        "lat": -18.5543743,
+        "long": -48.0923613
+      }
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

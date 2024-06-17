@@ -1,0 +1,37 @@
+{
+  "name": "Stats",
+  "path": "/stats",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/c5d9b086-056f-4274-9593-40337c73843c",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/53b3cf88-db4e-4642-a7f9-7a868dbeac2b",
+      "type": "website",
+      "title": "Stats | Conexões Culturais",
+      "description": "Stats - experiências inspiradas em diferentes culturas ao redor do Brasil.",
+      "noIndexing": true
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/TotalEvents.tsx",
+      "reviews": {
+        "__resolveType": "site/loaders/reviews/reviewsAll.ts"
+      }
+    },
+    {
+      "__resolveType": "site/sections/ShowProductEvents.tsx"
+    },
+    {
+      "__resolveType": "site/sections/HTMXForm.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

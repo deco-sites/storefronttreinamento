@@ -69,16 +69,14 @@ function Navbar(
   return (
     <div class="hidden sm:grid sm:grid-cols-3 items-center border-b border-base-200 w-full px-6">
       <ul
-        class={`flex gap-6 col-span-1 ${
-          logoPosition === "left" ? "justify-center" : "justify-start"
-        }`}
+        class={`flex gap-6 col-span-1 ${logoPosition === "left" ? "justify-center" : "justify-start"
+          }`}
       >
         {items.map((item) => <NavItem item={item} />)}
       </ul>
       <div
-        class={`flex ${
-          logoPosition === "left" ? "justify-start -order-1" : "justify-center"
-        }`}
+        class={`flex ${logoPosition === "left" ? "justify-start -order-1" : "justify-center"
+          }`}
       >
         {logo && (
           <a
@@ -130,6 +128,19 @@ function Navbar(
             WISHLIST
           </a>
         )}
+        <a
+          class="flex items-center text-xs font-thin"
+          href="/stats"
+          aria-label="Account"
+        >
+           <button
+              class="flex btn btn-circle btn-sm btn-ghost gap-1"
+              aria-label="Stats"
+            >
+          <Icon id="Friends" size={24} strokeWidth={2} />
+          </button>
+          STATS
+        </a>
         {!buttons?.hideCartButton && (
           <div class="flex items-center text-xs font-thin">
             {platform === "vtex" && <CartButtonVTEX />}

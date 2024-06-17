@@ -1,1 +1,34 @@
-{"name":"Search","path":"/s","sections":[{"type":"website","__resolveType":"website/sections/Seo/Seo.tsx","titleTemplate":"%s | Deco.cx","descriptionTemplate":"%s | Deco.cx"},{"__resolveType":"Header - 01"},{"page":{"__resolveType":"PLP Loader"},"layout":{"columns":{"mobile":2,"desktop":4},"variant":"aside"},"__resolveType":"site/sections/Product/SearchResult.tsx"},{"__resolveType":"Footer - 01"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Search",
+  "path": "/s",
+  "sections": [
+    {
+      "type": "website",
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "titleTemplate": "%s | Conexões Culturais",
+      "descriptionTemplate": "%s | Conhecendo o Brasil",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/b3e16b50-414b-491c-9173-f83278d8366f",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9901/35c0fd5f-b0be-4a8f-a05e-f04cd6e3f2af"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "page": {
+        "__resolveType": "PLP Loader"
+      },
+      "layout": {
+        "columns": {
+          "mobile": 2,
+          "desktop": 4
+        },
+        "variant": "aside"
+      },
+      "__resolveType": "site/sections/Product/SearchResult.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}
